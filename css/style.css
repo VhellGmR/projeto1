@@ -1,0 +1,127 @@
+/* geral */
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+/* header */
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+/* navbar */
+nav {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(142, 190, 194);
+    border-bottom: 5px; color: aqua;
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 90px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.nav-container ul{
+    float: right;
+    height: 100px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.nav-container li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.nav-container li a:hover {
+    color: #E7C9AA;
+}
+
+/* banner */
+#main-banner {
+    background: url(../img/banner3.png);
+    background-size: cover;
+    background-position: 0 55%;
+    position: relative;
+    margin-top: 50px;
+}
+
+#search-form {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    text-align: center;
+}
+
+ h1 {
+    font-size: 40px;
+    color: #0F767E;
+}
+
+ p {
+    font-size: 18px;
+    color: #0F767E;
+
+}
+
+input, select {
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+ input[type=submit] {
+    background-color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+ input[type=submit]:hover {
+    background-color: #8EBEC2
+
+}
+
